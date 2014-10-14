@@ -1,6 +1,6 @@
 #include <FastLED.h>
 
-#define NUM_LEDS 12 //CHANGE TO FIT YOUR SETUP (# of LED pixels)
+#define LED_COUNT 12 //CHANGE TO FIT YOUR SETUP (# of LED pixels)
 
 #include <fix_fft.h>
 
@@ -41,7 +41,7 @@ float sHue = 0.00;
 //------------------SETUP------------------
 void setup()  
 {
-  LEDS.addLeds<WS2811, 2, BRG>(leds, 0, NUM_LEDS);        //CHANGE TO FIT YOUR SETUP
+  LEDS.addLeds<WS2811, 2, BRG>(leds, 0, LED_COUNT);        //CHANGE TO FIT YOUR SETUP
   LEDS.show();
 }
 
