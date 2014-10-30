@@ -37,5 +37,7 @@ VARIABLES & FUNCTIONS (example.ino)
 baseline - threshold for triggering the pattern effect. Set lower for more sensitivity and higher for less.
 ledTimer - how often the LEDs can be triggered (can be used to limit false detection at high sensitivity)
 fadeTimer - how fast the LEDs fade (can be used in conjunction with the fade multiplier)
+
 hue(x) - function to change the global variable ihue by x
+
 value[] - array with FFT results (example code uses 3 bins)
